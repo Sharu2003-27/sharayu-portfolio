@@ -1,0 +1,14 @@
+footer {
+    padding: 3rem;
+    text-align: center;
+}
+
+.footer-section p {
+    color: black;
+    font-size: 1.3rem;
+}
+
+.footer-section a {
+    color: #623d9d;
+    text-decoration: none;
+}

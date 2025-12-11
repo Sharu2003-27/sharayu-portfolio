@@ -1,0 +1,34 @@
+.about-section {
+    padding-left: 20rem;
+}
+
+@media (max-width: 991px) {
+    .about-section {
+        padding: 1rem 1rem;
+    }
+}
+
+.about-section h1 {
+    font-weight:bolder;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.about-section p {
+    font-size: 1.5rem;
+    padding-right: 20rem;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 991px) {
+    .about-section p {
+        padding-right: 1rem;
+    }
+}
+
+.line-one {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 1rem;
+}

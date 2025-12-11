@@ -1,0 +1,137 @@
+.projects-container {
+  padding-left: 10rem;
+  padding-right: 5rem;
+}
+
+.projects-title {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    color: #333;
+    font-weight: 700;
+    padding-left: 10rem;
+}
+
+.project-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding-bottom: 5rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 350px;     
+  object-fit: contain;  
+  padding: 20px;
+}
+
+.card {
+  height: 100%;  
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-8px); 
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25); 
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.icons-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  justify-content: flex-start; 
+}
+
+.skills-row { 
+    margin-bottom: 1.5rem; 
+    margin-top: 1rem;
+}
+
+.tag {
+  background: #6a1b9a;
+  color: white;
+  padding: 4px 10px;
+  margin-right: 6px;
+  border-radius: 6px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.tag:hover {
+    background: #4f0977;
+    color: white;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.icons-row a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.icon-size {
+  width: 25px;  
+  height: 25px;  
+}
+
+.icon:hover {
+  color: #7e57c2;
+}
+
+@media (max-width: 991px) {
+    .projects-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .projects-title {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .projects-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .projects-title {
+        font-size: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .card-img-top {
+        height: 200px; 
+    }
+}
+
+.line-one {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 1rem;
+}
