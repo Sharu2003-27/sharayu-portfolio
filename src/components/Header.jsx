@@ -17,7 +17,7 @@ const Header = () => {
         </ul>
       </nav>
     </header>
-    <hr className='line-one'/>
+    <hr className='line-x'/>
     </>
   );
 };

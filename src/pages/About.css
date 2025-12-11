@@ -5,6 +5,7 @@
 @media (max-width: 991px) {
     .about-section {
         padding: 1rem 1rem;
+        font-size: small;
     }
 }
 

@@ -60,6 +60,8 @@ const Home = () => {
                             <li>Vite</li>
                             <li>VS Code</li>
                             <li>npm / pnpm</li>
+
+                            <li>Netlify</li>
                         </ul>
                     </div>
                 </section>

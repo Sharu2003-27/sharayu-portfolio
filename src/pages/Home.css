@@ -6,6 +6,15 @@
     .home-main-section {
         padding-left: 1rem;
         padding-right: 1rem;
+        font-size: small;
+    }
+}
+
+@media (max-width: 761px) {
+    .home-main-section {
+         padding-left: 1rem;
+         padding-right: 0.5rem;
+         font-size: small;
     }
 }
 
@@ -123,7 +132,7 @@
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 2rem 40rem 2rem 40rem;
+    padding: 2rem 40rem 2rem 20rem;
 }
 
 .insta-icon-size { 
@@ -141,14 +150,14 @@
 @media (max-width: 991px) {
     .insta-icons {
          padding-left: 2rem;
-         padding-right: 2rem;
+         padding-right: 1rem;
     }
 }
 
 @media (max-width: 761px) {
     .insta-icons {
          padding-left: 1rem;
-         padding-right: 1rem;
+         padding-right: 0.5rem;
     }
 }
 

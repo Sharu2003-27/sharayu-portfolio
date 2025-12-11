@@ -10,7 +10,7 @@ header {
     header {
        padding-left: 2rem;
        padding-right: 2rem;
-       font-size: 2rem;
+       font-size: small;
        margin-top: 1.5rem;
        margin-bottom: 1.5rem;
     }
@@ -20,12 +20,19 @@ header {
 @media (max-width: 767px) {
     header {
         padding-left: 1rem;
+        padding-right: 0;
+        font-size: small;
+    }
+
+    header a {
+        padding-left: 1rem;
         padding-right: 1rem;
+        font-size: small;
     }
 }
 
 .logo a {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #000;
     text-decoration: none;
@@ -42,7 +49,7 @@ header {
 .nav-links a {
     text-decoration: none;
     color: #000;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     transition: color 0.3s ease;
 }
