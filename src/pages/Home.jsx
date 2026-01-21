@@ -24,7 +24,8 @@ const Home = () => {
                             <a href="#contact">Contact Me</a>
                         </button>
                         <button className='second-btns'>
-                            <a href="https://drive.google.com/file/d/1xvXFeOi582jyJYnR8xTw-x8ZSfAV8c0T/view?usp=sharing" target="_blank">Resume</a>
+                            <a href="https://drive.google.com/file/d/1rfKWp93c84Y8rYbbpC7uWTTqlpp2pxV7/view?usp=sharing" 
+                            target="_blank">Resume</a>
                         </button>
                     </div>
               
