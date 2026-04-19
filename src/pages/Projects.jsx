@@ -6,7 +6,7 @@ const Projects = () => {
 
     const projectDetails = [
         {
-            projectImg: "/public/assets/meetup.svg",
+            projectImg: "/assets/meetup.svg",
             projectName: "Meetup App",
             projectDescription: "A full-stack event management app that lets users browse events, search by tags or titles, filter by event type, and view detailed info including speakers and venue details.",
             projectskills: ["ReactJS", "NodeJS", "MongoDB", "ExpressJS", "Bootstrap"],
@@ -14,7 +14,7 @@ const Projects = () => {
             hostedLink: "https://meetup-frontend-xi.vercel.app"
         },
          {
-            projectImg: "/public/assets/e-commerce.svg",
+            projectImg: "/assets/e-commerce.svg",
             projectName: "E-commerce App",
             projectDescription: "A modern e-commerce furniture store with a responsive UI where users can browse and filter items, view detailed product pages, search, manage a shopping cart, and complete a checkout.",
             projectskills: ["ReactJS", "NodeJS", "MongoDB", "ExpressJS", "Bootstrap"],
@@ -22,7 +22,7 @@ const Projects = () => {
             hostedLink: "https://furniture-frontend-six.vercel.app"
         },
          {
-            projectImg: "/public/assets/anvaya.svg",
+            projectImg: "/assets/anvaya.svg",
             projectName: "Anvaya CRM",
             projectDescription: "A lead management CRM designed for sales teams to efficiently manage leads, sales agents, comments, and reports.",
             projectskills: ["ReactJS", "NodeJS", "MongoDB", "ExpressJS", "Bootstrap"],
@@ -30,7 +30,7 @@ const Projects = () => {
             hostedLink: "https://anvaya-frontend-rust.vercel.app"
         },
          {
-            projectImg: "/public/assets/job-posting.svg",
+            projectImg: "/assets/job-posting.svg",
             projectName: "Job Posting App",
             projectDescription: "A full-stack job board application designed for companies to efficiently post and manage job openings, allowing candidates to search, view, and delete it.",
             projectskills: ["ReactJS", "NodeJS", "MongoDB", "ExpressJS", "Bootstrap"],

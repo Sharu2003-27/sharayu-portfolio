@@ -58,6 +58,9 @@
 }
 
 .skills-row { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
     margin-bottom: 1.5rem; 
     margin-top: 1rem;
 }
@@ -66,7 +69,6 @@
   background: #6a1b9a;
   color: white;
   padding: 4px 10px;
-  margin-right: 6px;
   border-radius: 6px;
   font-size: 13px;
   display: inline-block;
