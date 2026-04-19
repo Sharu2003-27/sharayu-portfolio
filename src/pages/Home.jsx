@@ -13,24 +13,24 @@ const Home = () => {
                     </div>
                 </section>
 
-                <hr className='line-two'/>
+                <hr className='line-two' />
 
-                    <div className="para-wrapper">
-                        <p>A dedicated learner exploring Full Stack Development and modern web technologies.</p>
-                        <p>Building my full-stack development journey with React, Node.js, and MongoDB.</p>
-                    </div>
-                    <div className='home-page-buttons'>
-                        <button className='first-btns'>
-                            <a href="#contact">Contact Me</a>
-                        </button>
-                        <button className='second-btns'>
-                            <a href="https://drive.google.com/file/d/1rfKWp93c84Y8rYbbpC7uWTTqlpp2pxV7/view?usp=sharing" 
+                <div className="para-wrapper">
+                    <p>A dedicated learner exploring Full Stack Development and modern web technologies.</p>
+                    <p>Building my full-stack development journey with React, Node.js, and MongoDB.</p>
+                </div>
+                <div className='home-page-buttons'>
+                    <button className='first-btns'>
+                        <a href="#contact">Contact Me</a>
+                    </button>
+                    <button className='second-btns'>
+                        <a href="https://drive.google.com/file/d/1MQGYp8_QIRPFWbWFGOGRoN-O0h7Js3ga/view?usp=sharing"
                             target="_blank">Resume</a>
-                        </button>
-                    </div>
-              
+                    </button>
+                </div>
 
-                  <hr className='line-two'/>
+
+                <hr className='line-two' />
 
                 <section className='info-two'>
                     <div>
@@ -46,12 +46,12 @@ const Home = () => {
                             <li>HTML5</li>
                             <li>CSS</li>
                             <li>Git</li>
-                            
+
                             <li>Next.js</li>
                             <li>Mongoose</li>
                             <li>Vercel</li>
                             <li>CSS3</li>
-                            
+
                             <li>GitHub</li>
                             <li>Bootstrap</li>
                             <li>Chrome DevTools</li>
@@ -67,38 +67,38 @@ const Home = () => {
                     </div>
                 </section>
 
-                <hr className='line-two'/>
+                <hr className='line-two' />
 
                 <section id="contact" className="contact-section">
                     <h2><strong>Connect Me</strong></h2>
 
                     <div className="insta-icons">
                         <span className="insta-icon">
-                          <Link to="https://www.linkedin.com/in/sharayuborude2003/" target="_blank" >
-                             <img src="/assets/linkedin.png" alt="Linkedin" className="insta-icon-size" />
-                          </Link>
+                            <Link to="https://www.linkedin.com/in/sharayuborude2003/" target="_blank" >
+                                <img src="/assets/linkedin.png" alt="Linkedin" className="insta-icon-size" />
+                            </Link>
                         </span>
                         <span className="insta-icon">
-                          <Link to="https://github.com/Sharu2003-27" target="_blank" >
-                             <img src="/assets/github.png" alt="Github" className="insta-icon-size" />
-                          </Link>
+                            <Link to="https://github.com/Sharu2003-27" target="_blank" >
+                                <img src="/assets/github.png" alt="Github" className="insta-icon-size" />
+                            </Link>
                         </span>
                         <span className="insta-icon">
-                          <Link to="https://x.com/BorudeShar86201" target="_blank" >
-                             <img src="/assets/twitter.png" alt="Twitter" className="insta-icon-size" />
-                          </Link>
+                            <Link to="https://x.com/BorudeShar86201" target="_blank" >
+                                <img src="/assets/twitter.png" alt="Twitter" className="insta-icon-size" />
+                            </Link>
                         </span>
                         <span className="insta-icon">
-                          <Link to="https://www.instagram.com/sharu_2003?igsh=MTRlN3UxejA1NmNjNQ==" target="_blank" >
-                             <img src="/assets/instagram.png" alt="Instagram" className="insta-icon-size" />
-                          </Link>
+                            <Link to="https://www.instagram.com/sharu_2003?igsh=MTRlN3UxejA1NmNjNQ==" target="_blank" >
+                                <img src="/assets/instagram.png" alt="Instagram" className="insta-icon-size" />
+                            </Link>
                         </span>
                     </div>
                 </section>
-            </main> 
-            <hr className='line-one'/>
+            </main>
+            <hr className='line-one' />
         </>
     );
-};      
+};
 
 export default Home;
